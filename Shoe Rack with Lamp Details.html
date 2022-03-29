@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <link rel="stylesheet" href="CSS 2.css">
+
+    <style>
+
+        .small-img-group{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .small-img-col{
+            flex-basis: 29%;
+            cursor: pointer;
+        }
+
+        .sproduct select{
+            display:block;
+            padding: 5px 10px;
+        }
+
+        .sproduct input{
+            width: 50px;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .sproduct input:focus{
+            outline: none;
+
+        }
+
+        .buy-btn{
+            background:#000000;
+            opacity: 1;
+            transition: 0.3s all;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--NAVIGATION-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+        <div class="container">
+         <img src="Image/GPD 2.PNG" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span ><i id="bar" class="far fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact Us.html">Contact Us</a>
+              </li>        
+          </div>
+        </div>
+    </nav>
+
+    <section class="container sproduct my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-mf-12 col-12">
+               <img class="img-fluid w-60 pb-4" src="Image/Shoe Rack with Lamp.jpg" id="MainImg" alt="">
+
+               <div class="small-img-group">
+                   <div class="small-img-col">
+                    <img src="Image/Shoe Rack with Lamp.jpg" width="100%" class="small-img" alt="">
+                   </div>
+                   <div class="small-img-col">
+                    <img src="Image/hoe Rack with Lamp 2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Image/Shoe Rack with Lamp 3.jpg" width="100%" class="small-img" alt="">
+                </div>
+               </div>
+            </div>
+
+            <div class="col-lg-6 col-mf-12 col-12">
+                <h6>Storage</h6>
+                <h5 class="py-4">Shoe Rack with Lamp</h5>
+                <h5>RM ±150.00</h5>
+                <a href="https://wa.me/+60129080677" target="_blank"><button class="buy-btn">Interested?</button></a>
+                <h4 class="mt-5 mb-5">Product Details</h4>
+                <span>Take your time to choose your preferred footwear under the light. 
+                  The dimension of the items can be decided after discussion with seller
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h7>Related Products</h7>
+            <hr class="mx-auto">
+        </div>
+        <div class="row ms-auto container-fluid"> 
+          <div onclick="window.location.href='Shoe Rack with Lamp Details.html';" class="products text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="Image/Shoe Rack with Lamp.jpg" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Shoe Rack with Lamp</h5>
+            <h4 class="p-price">RM ±600.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div onclick="window.location.href='Key Holder Details.html';" class="products text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="Image/Key Holder.jpeg" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Key Holder</h5>
+            <h4 class="p-price">RM ±300.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div onclick="window.location.href='Pot Stand.html';" class="products text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="Image/Pot Stand.jpeg" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Pot Stand</h5>
+            <h4 class="p-price">RM ±300.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div onclick="window.location.href='Outdoor Counter.html';" class="products text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="Image/Outdoor Counter.jpg" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Outdoor Counter</h5>
+            <h4 class="p-price">RM ±300.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+
+        </div>
+    </section>
+
+    <footer class="mt-5 py-5">
+      <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-4 col-md-6 col-12">
+          <img src="Image/GPD.PNG" alt="">
+        </div>
+        <div class="footer-one col-lg-2 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Category</h5>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="Gallery.html">Featured Products</a></li>
+            <li><a href="Gallery.html">Top-selling Products</a></li>
+          </ul>
+        </div>
+        <div class="footer-one col-lg-2 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Contact Us</h5>
+          <div>
+            <h6 class="text-uppercase"></h6>
+            <p></p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Phone</h6>
+            <p>+60102431561</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Email</h6>
+            <p>syfqhikl74@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright mt-5">
+        <div class="row container mc-autp">
+
+          <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+            <p>Grand Phoenix - Wood Art & Home Deco © 2021. All Rights Reserved</p>
+          </div>
+          <div class="container col-lg-4 col-md-6 col-12">
+            <a href="https://www.facebook.com/GrandPhoenixDeco"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://wa.me/+60102431561"><i class="fab fa-whatsapp-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+        
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+  <script>
+      var MainImg = document.getElementById('MainImg');
+      var smallimg = document.getElementsByClassName('small-img');
+
+      smallimg[0].onclick = function(){
+          MainImg.src = smallimg[0].src;
+      }
+      smallimg[1].onclick = function() {
+          MainImg.src = smallimg[1].src;
+      }
+      smallimg[2].onclick = function() {
+          MainImg.src = smallimg[2].src;
+      }
+  </script>
+</body>
+</html>
+
